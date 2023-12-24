@@ -1,5 +1,5 @@
 # JavaScript-by-YT
-Estudando Java pelo Youtubil
+Estudando JavaScript pelo Youtubil
 
 
 
@@ -46,6 +46,37 @@ n1.toFixed(2) = 1545.50 // Define quantas casa decimais depois da virgula
 n1.replace('.' , ',') = 1545,50 // Troquei o "." por ",".
 n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) = 'R$ 1.545,50'
                                     dinheiros             moeda
+
+
+## Operadores Aritméticos
+
++ = soma
+- = Subtração
+* = Multiplicação
+/ = Divisão de Numeros reais
+% = Resto da divisão
+5 ** 2 = (5²) = 25
+
+### Precedencias dos operadores
+
+1  ()
+2  **
+3  * / %
+4  + -
+
+### Simplificado
+
+n = 4
+n = n+2 = 6 /// n +=2
+n = n-2 = 2 /// n -=2
+E por aí vai.
+
+### Incremento
+
+var n = 10
+n++ = 11
+n-- = 10
+
 
 ## Início // Término
 12DEZ23  // A.S.D
