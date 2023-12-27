@@ -92,6 +92,19 @@ n-- = 10
 2- && (E) - true && true = true // true && false = false // false && true = false <br>
 3- || (OU) - true || true = true // true || false = true // false || true = true // false || false = false <br>
 
+###Ternários
+
+teste ? true : false
+média >= 7.0 ? "Aprovado" : "Reprovado" ;
+? - 
+: - 
+
+
+## Precedencias Gerais
+1- Aritmeticos
+2- Relacionais
+3- Lógicos
+
 
 ## Início // Término
 12DEZ23  // A.S.D
