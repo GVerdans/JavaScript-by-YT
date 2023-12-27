@@ -80,7 +80,7 @@ n-- = 10
 
 ## Operadores // Boolean (True, False) // Precedencia dos relacionais e depois os otos;
 ### Relacionais
->, <, >=, <=, ==, != ;
+ >, <, >=, <=, ==, != ;
 
 ### Identidade
 
