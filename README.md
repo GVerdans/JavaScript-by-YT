@@ -87,9 +87,9 @@ n-- = 10
 === - Identicos // Mesmo valor e mesmo tipo.
 
 ### Lógicos
-> ! (Negação) - Só um operando // !true = false // !false = true
-> && (E) - true && true = true // true && false = false // false && true = false
-> || (OU) - true || true = true // true || false = true // false || true = true // false || false = false
+<p> ! (Negação) - Só um operando // !true = false // !false = true
+<p> && (E) - true && true = true // true && false = false // false && true = false
+<p>|| (OU) - true || true = true // true || false = true // false || true = true // false || false = false
 
 
 ## Início // Término
