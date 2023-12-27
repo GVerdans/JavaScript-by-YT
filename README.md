@@ -78,5 +78,19 @@ n++ = 11
 n-- = 10
 
 
+## Operadores // Boolean (True, False)
+### Relacionais
+>, <, >=, <=, ==, !=
+
+### Identidade
+
+=== - Identicos // Mesmo valor e mesmo tipo.
+
+### Lógicos
+! (Negação) - Só um operando // !true = false // !false = true
+&& (E) - true && true = true // true && false = false // false && true = false
+|| (OU) - true || true = true // true || false = true // false || true = true // false || false = false
+
+
 ## Início // Término
 12DEZ23  // A.S.D
