@@ -88,8 +88,8 @@ n-- = 10
 
 ### Lógicos
 ! (Negação) - Só um operando // !true = false // !false = true <br>
-&& (E) - true && true = true // true && false = false // false && true = false
-|| (OU) - true || true = true // true || false = true // false || true = true // false || false = false
+&& (E) - true && true = true // true && false = false // false && true = false <br>
+|| (OU) - true || true = true // true || false = true // false || true = true // false || false = false <br>
 
 
 ## Início // Término
