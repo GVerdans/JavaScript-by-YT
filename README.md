@@ -78,18 +78,19 @@ n++ = 11
 n-- = 10
 
 
-## Operadores // Boolean (True, False)
+## Operadores // Boolean (True, False) // Precedencia dos relacionais e depois os otos;
 ### Relacionais
->, <, >=, <=, ==, !=
+>, <, >=, <=, ==, != ;
 
 ### Identidade
 
 === - Identicos // Mesmo valor e mesmo tipo.
 
 ### Lógicos
-! (Negação) - Só um operando // !true = false // !false = true <br>
-&& (E) - true && true = true // true && false = false // false && true = false <br>
-|| (OU) - true || true = true // true || false = true // false || true = true // false || false = false <br>
+#### Precedencia
+1- ! (Negação) - Só um operando // !true = false // !false = true <br>
+2- && (E) - true && true = true // true && false = false // false && true = false <br>
+3- || (OU) - true || true = true // true || false = true // false || true = true // false || false = false <br>
 
 
 ## Início // Término
