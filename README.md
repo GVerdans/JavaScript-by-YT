@@ -105,6 +105,16 @@ média >= 7.0 ? "Aprovado" : "Reprovado" ;
 2- Relacionais
 3- Lógicos
 
+## If / Else
+'If' - Condição;
+'Else' - Opções;
+
+If {
+}else{
+}
+
+## Tipos de condição ##
+
 
 ## Início // Término
 12DEZ23  // A.S.D

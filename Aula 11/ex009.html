@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+
+<body>
+    <h2>Nacionalidade</h2>
+
+    Escreva seu País de nascimento: <input type="text" name="paistxt" id="paistxt">
+    <input type="button" value="Enviar" onclick="butao()">
+
+    <div id="res">
+
+    </div>
+
+
+    <script>
+
+        function butao() {
+            var txtpais = window.document.getElementById("paistxt");
+            var results = window.document.getElementById("res");
+            var pais = String(txtpais.value);
+
+            results.innerHTML = `<p>Seu país de nascimento é ${pais}!</p>`
+
+            if (pais == 'brasil'){
+                results.innerHTML += '<p>Você é Brasileiro!</p>'
+            } else {
+                results.innerHTML += '<p>Você é Gringo!</p>'
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
