@@ -13,7 +13,7 @@
     Escreva seu País de nascimento: <input type="text" name="paistxt" id="paistxt">
     <input type="button" value="Enviar" onclick="butao()">
 
-    <div id="res">
+    <div id="res" style="border: 1px solid red">
 
     </div>
 
@@ -23,11 +23,11 @@
         function butao() {
             var txtpais = window.document.getElementById("paistxt");
             var results = window.document.getElementById("res");
-            var pais = String(txtpais.value);
+            var pais = txtpais.value;
 
             results.innerHTML = `<p>Seu país de nascimento é ${pais}!</p>`
 
-            if (pais == 'brasil'){
+            if (pais.toLowerCase() == 'brasil'){
                 results.innerHTML += '<p>Você é Brasileiro!</p>'
             } else {
                 results.innerHTML += '<p>Você é Gringo!</p>'
