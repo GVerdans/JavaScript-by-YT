@@ -92,12 +92,12 @@ Estudando JavaScript pelo Youtubil
 - 2- && (E) - true && true = true // true && false = false // false && true = false <br>
 - 3- || (OU) - true || true = true // true || false = true // false || true = true // false || false = false <br>
 
-###Ternários
+### Ternários
 
-teste ? true : false
-média >= 7.0 ? "Aprovado" : "Reprovado" ;
-? - 
-: - 
+- teste ? true : false
+- média >= 7.0 ? "Aprovado" : "Reprovado" ;
+- ? - 
+- : - 
 
 
 ## Precedencias Gerais
