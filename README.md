@@ -50,32 +50,32 @@ n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) = 'R$ 1.545,50'
 
 ## Operadores Aritméticos
 
-+ = soma
-- = Subtração
-* = Multiplicação
-/ = Divisão de Numeros reais
-% = Resto da divisão
-5 ** 2 = (5²) = 25
+### + = soma
+### - = Subtração
+### * = Multiplicação
+### / = Divisão de Numeros reais
+### % = Resto da divisão
+### 5 ** 2 = (5²) = 25
 
 ### Precedencias dos operadores
 
-1  ()
-2  **
-3  * / %
-4  + -
+## 1  ()
+## 2  **
+## 3  * / %
+## 4  + -
 
 ### Simplificado
 
-n = 4
-n = n+2 = 6 /// n +=2
-n = n-2 = 2 /// n -=2
-E por aí vai.
+- n = 4
+- n = n+2 = 6 /// n +=2
+- n = n-2 = 2 /// n -=2
+- E por aí vai.
 
 ### Incremento
 
-var n = 10
-n++ = 11
-n-- = 10
+- var n = 10
+- n++ = 11
+- n-- = 10
 
 
 ## Operadores // Boolean (True, False) // Precedencia dos relacionais e depois os otos;
@@ -88,9 +88,9 @@ n-- = 10
 
 ### Lógicos
 #### Precedencia
-1- ! (Negação) - Só um operando // !true = false // !false = true <br>
-2- && (E) - true && true = true // true && false = false // false && true = false <br>
-3- || (OU) - true || true = true // true || false = true // false || true = true // false || false = false <br>
+- 1- ! (Negação) - Só um operando // !true = false // !false = true <br>
+- 2- && (E) - true && true = true // true && false = false // false && true = false <br>
+- 3- || (OU) - true || true = true // true || false = true // false || true = true // false || false = false <br>
 
 ###Ternários
 
@@ -113,7 +113,21 @@ If {
 }else{
 }
 
+## Else / If
+- If(condição){
+} else if (condição){
+}
+
 ## Tipos de condição ##
+- Simples (if)
+- Composta (If, Else)
+
+## Switch Case
+- Switch (var){
+-   case (condição):
+-   ação
+-   break <---- Obrigatório
+}
 
 
 ## Início // Término
